@@ -25,6 +25,7 @@ public class TestApp {
 //		@SuppressWarnings("resource")
 //		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath);
 //		AccountService accountService = (AccountService) applicationContext.getBean("accountService");
+		System.out.println("123");
 		accotService.transfer("jack", "rose", 1000);
 	}
 }
